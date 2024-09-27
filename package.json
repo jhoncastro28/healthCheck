@@ -2,7 +2,7 @@
   "name": "healthcheck",
   "version": "1.0.0",
   "description": "Proyecto HealthCheck para Sistemas Distribuidos",
-  "main": "index.js",
+  "main": "scripts/main.js",
   "scripts": {
     "start-middleware": "node middleware/middleware.js",
     "start-server1": "node servers/server1.js",

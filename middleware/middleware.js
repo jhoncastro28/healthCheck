@@ -1,9 +1,10 @@
 const express = require('express');
+const path = require('path');
 const fetch = require('node-fetch');
 const app = express();
 const port = 3000;
 
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, '..')));
 
 app.get('/middleware-endpoint', async (req, res) => {
     try {
