@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +7,14 @@
         <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
-        <div class="container">
-            <h1>HealthCheck System</h1>
-            <button id="checkStatusBtn">Check Server Status</button>
-            <div id="response"></div>
-        </div>
+        <h1>HealthCheck</h1>
+
+        <label for="intervalInput">Intervalo de actualización (ms):</label>
+        <input type="number" id="intervalInput" placeholder="e.g. 5000">
+
+        <button id="startCheckBtn">Iniciar HealthCheck</button>
+
+        <div id="response"></div>
 
         <script src="scripts/main.js"></script>
     </body>

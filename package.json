@@ -1,0 +1,17 @@
+{
+  "name": "healthcheck",
+  "version": "1.0.0",
+  "description": "Proyecto HealthCheck para Sistemas Distribuidos",
+  "main": "index.js",
+  "scripts": {
+    "start-middleware": "node middleware/middleware.js",
+    "start-server1": "node servers/server1.js",
+    "start-server2": "node servers/server2.js"
+  },
+  "author": "Tu nombre",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.2.10"
+  }
+}
